@@ -11,8 +11,29 @@ class App extends Component {
           <h1 className="App-title">Luis Pineda Jr.</h1>
         </header>
         <p className="App-intro">
-          Luis Pineda, A Software Developer with Design enthusiast.
+          Luis Pineda, A Software Developer and Design enthusiast.
         </p>
+        <div className="info-section">
+        </div>
+        <div className="info-box">
+        <h4>Email</h4>
+        <p>Lspnd@Outlook.com</p>
+        <h4>Phone</h4>
+        <p>813.361.7257</p>
+        <h4>Find Me On</h4>
+        </div>
+        <div className="icon-section">
+          <i></i>
+          <i></i>
+          <i></i>
+        </div>
+        <div className="content-area">
+          <div className="user-img"></div>
+          <div className="profile"></div>
+          <h1>Luis <br/>
+          Pineda
+          </h1>
+        </div>
       </div>
     );
   }

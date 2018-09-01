@@ -1,3 +1,11 @@
+/* blue - #4b21ff 
+   black - #272727
+   white letters - #fefefe
+   form lines - #a9a9a9
+   footer letter - #bdbdbd
+
+*/
+
 .App {
   text-align: center;
 }
@@ -8,10 +16,10 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color:#272727;
   height: 150px;
   padding: 20px;
-  color: white;
+  color: #fefefe;
 }
 
 .App-title {
@@ -20,6 +28,7 @@
 
 .App-intro {
   font-size: large;
+  color: #fefefe;
 }
 
 @keyframes App-logo-spin {
