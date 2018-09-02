@@ -5,33 +5,76 @@
    footer letter - #bdbdbd
 
 */
-
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  background: white;
+  height: 100px;
+  width: 200px;
+
 }
 
-.App-header {
-  background-color:#272727;
-  height: 150px;
-  padding: 20px;
+.info-section {
+  padding: 54px;
+  width: 35%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.info-box {
+  position: absolute;
+  bottom: 60px;
+}
+.info-box h4 {
+  font-size: 1.2rem;
   color: #fefefe;
+  margin: 0.7rem 0;
 }
 
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
+.info-box p{
+  font-size: 0.9rem;
+  font-weight: 300;
   color: #fefefe;
+  margin: 0.2rem 0 1.6rem;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.content-area {
+  margin-left: 35%;
+  height: 100vh;
+  width: 65%;
+  background: white;
+  /* padding: 0 0 0 25%; */
+  
+}
+.img-container{ 
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  height: 100%;
+}
+
+.profile-section {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.user-img {
+  position: absolute;
+  top: 56px;
+  left: -200px;
+  width: 400px;
+  height: calc(100% - 112px);
+  background: url(images/luis.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.profile{
+
 }
