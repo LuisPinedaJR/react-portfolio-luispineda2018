@@ -6,7 +6,7 @@ export default class Logo extends Component {
     return (
       <div className="info-section">
         <div className="App-logo" alt="logo"> 
-          
+          LSPND
         </div>
       </div>
     )

@@ -15,14 +15,20 @@ export default class Content extends Component {
           <div className="profile">
         
         <h1>Luis<br/>
-        Pineda
+        <span>Pineda</span>
         </h1>
         <h5>Software Developer</h5>
-        <p>Hi! my name is Luis Pineda and 
+        <p>Hi! my name is Luis Pineda. <br/>
         I am Software Developer and 
         Design enthusiast.</p>
-        <button className="primary-btn">Portfolio</button>
-        <button className="ghost-btn">Resume</button>
+
+        <a href="http://luispinedajr.com/#features">
+        <div className="primary-btn">Portfolio</div>
+        </a>
+        <a href="https://standardresume.co/luispineda">
+          <div className="ghost-btn">Resume</div>
+          </a>
+
         </div>
         </div>
       </div>
