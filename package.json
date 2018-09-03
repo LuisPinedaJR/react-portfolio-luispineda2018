@@ -2,6 +2,7 @@
   "name": "react-portfolio-luispineda2018",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "https://github.com/LuisPinedaJR/react-portfolio-luispineda2018",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.4",
     "@fortawesome/free-brands-svg-icons": "^5.1.0-11",
@@ -20,12 +21,18 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "babel": "babel",
+    "webpack": "webpack"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
     "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.2",
     "babel-plugin-styled-components": "^1.6.0",
-    "babel-preset-env": "^1.7.0"
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
   }
 }
