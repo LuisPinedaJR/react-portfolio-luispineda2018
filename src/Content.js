@@ -27,8 +27,7 @@ export default class Content extends Component {
         </a>
         <a href="https://standardresume.co/luispineda">
           <div className="ghost-btn">Resume</div>
-          </a>
-
+        </a>
         </div>
         </div>
       </div>
