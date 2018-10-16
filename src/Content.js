@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Resume from './Resume';
 
 import './App.css';
 
@@ -25,9 +26,7 @@ export default class Content extends Component {
         <a href="http://luispinedajr.com/#features">
         <div className="primary-btn">Portfolio</div>
         </a>
-        <a href="https://standardresume.co/luispineda">
-          <div className="ghost-btn">Resume</div>
-        </a>
+        <Resume />
         </div>
         </div>
       </div>
