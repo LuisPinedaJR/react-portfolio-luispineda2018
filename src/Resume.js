@@ -9,4 +9,6 @@ export default class Resume extends Component {
         </a>
     )
   }
+
+  
 }
