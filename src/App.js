@@ -10,6 +10,7 @@ import Menu from './Menu';
 import Logo from './Logo';
 import Info from './Info';
 import Content from './Content';
+import Resume from './Resume';
 
 
 library.add(fab, faBars, faTimes, faGithubAlt, faLinkedinIn, faDribbble)
@@ -18,9 +19,11 @@ class App extends Component {
   render() {
     return (
       <div>
+        {/* <Menu /> */}
         <Logo/>
         <Info/>
         <Content/>
+        <Resume />
       </div>
     );
   }
